@@ -1,0 +1,90 @@
+#orphanage-list-page{
+    display: flex;
+
+
+}
+
+#orphanage-list-page main{
+    flex: 1;
+    width: 700px;
+    margin: 64px 100px;
+    
+    border: 1px solid #D3E2E5;
+    border-radius: 20px;
+  
+    padding: 64px 80px;
+  
+    overflow: hidden;
+    color: #4D6F80;
+
+
+}
+
+#orphanage-list-page main h1{
+    font-size: 32px;
+    line-height: 34px;
+
+}
+
+#orphanage-list-page main .orphanage-list .orphanage-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+}
+
+#orphanage-list-page main .orphanage-list .orphanage-item .orphanage-item-container{
+    /* Shapes / 01 */
+
+    background: #FFFFFF;
+    /* Back / Lines in white */
+
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+#orphanage-list-page main .orphanage-list .orphanage-item .orphanage-item-container footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 0 15px;
+
+
+}
+
+#orphanage-list-page main .orphanage-list .orphanage-item .orphanage-item-container footer .orphanage-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#orphanage-list-page main .orphanage-list .orphanage-item .orphanage-item-container footer .orphanage-options .option-write{
+    background: #EBF2F5;
+    border-radius: 16px;
+    margin-right: 10px;
+    border-width: 0;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#orphanage-list-page main .orphanage-list .orphanage-item .orphanage-item-container footer .orphanage-options .option-delete{
+    background: #EBF2F5;
+    border-radius: 16px;
+    border-width: 0;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

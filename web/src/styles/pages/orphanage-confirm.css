@@ -1,0 +1,42 @@
+.acept_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.confirm-button-red{
+    margin-top: 64px;
+
+    width: 100%;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+    background: #F00;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: background-color 0.2s;}
+
+.confirm-button-green{
+    margin-top: 64px;
+
+    width: 100%;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+    background: #3CDC8C;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: background-color 0.2s;
+}

@@ -42,7 +42,6 @@ export default function CreateOrphanage() {
 
 
     setPreviewImages(selectedImagesPreview)
-
   }
 
   function handleMapClick(event:LeafletMouseEvent){

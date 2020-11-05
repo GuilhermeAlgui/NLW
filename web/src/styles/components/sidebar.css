@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
   }
   
    aside.app-sidebar img {
@@ -36,5 +37,37 @@
    aside.app-sidebar footer a:hover,
    aside.app-sidebar footer button:hover {
     background: #17D6EB;
+  }
+
+
+  aside.app-sidebar .sidebar-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  aside.app-sidebar .sidebar-items div{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  aside.app-sidebar .sidebar-items .sidebar-confirmed{
+    background: #FFD666;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    
+    
+  }
+  aside.app-sidebar .sidebar-items .sidebar-pendent{
+
+    background: #12AFCB;
+    border-radius: 16px;
+    margin-bottom: 10px;
+
+    
+    
   }
   

@@ -13,6 +13,7 @@ export default {
             instructions: orphanage.instructions,
             opening_hours: orphanage.opening_hours,
             open_on_weekend: orphanage.open_on_weekends,
+            pendente: orphanage.pendente,
             images: imagesView.renderMany(orphanage.images)
         };
     },

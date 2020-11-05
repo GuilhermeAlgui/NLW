@@ -5,6 +5,7 @@ import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import * as ImagePicker from 'expo-image-picker';
 import api from '../../services/api';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 interface OrphanageDataRouteParams{
   position:{
@@ -79,8 +80,19 @@ export default function OrphanageData() {
     setImages([...images,image])
   }
 
+  async function teste(){
+    
+    navigation.navigate('Onboarding')
+
+  }
+
   return (
+
+
+    
     <ScrollView style={styles.container} contentContainerStyle={{ padding: 24 }}>
+
+     
       <Text style={styles.title}>Dados</Text>
 
       <Text style={styles.label}>Nome</Text>

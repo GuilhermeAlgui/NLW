@@ -13,9 +13,14 @@ function Landing(){
         
     <div id="page-landing">
     <div className="content-wrapper">
-       <img src={logoImg} alt="Imagem Logo"/>
-
-
+       
+      <div className='logo-wrapper'>
+        <img src={logoImg} alt="Imagem Logo"/>
+        <div className="location">
+        <strong>Cidade</strong>
+        <span>Estado</span>
+        </div>
+      </div>
       <main>
         <h1>
           Leve felicidade para o mundo
@@ -23,10 +28,12 @@ function Landing(){
        <p>Visite orfanatos e mude o dia de muitas crianças.</p>
       </main>
 
-     <div className="location">
-        <strong>Cidade</strong>
-       <span>Estado</span>
-     </div>
+    
+      <Link to="Login"
+        className="landingButton"
+        >
+       <p>Acesso Restrito</p>
+      </Link>
 
       <Link to="app" className="enter-app">
         <FiArrowRight size={26} color="rgba(0,0,0,0.6)"/>

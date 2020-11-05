@@ -25,7 +25,6 @@ export default function Header({title, showCancel= true}: HeaderProps){
             <BorderlessButton onPress= {navigation.goBack}>
                 <Feather name="arrow-left" size={24} color="#15b6d6" />
             </BorderlessButton>
-
             <Text style= {styles.title}>
                 {title}
             </Text>
@@ -48,7 +47,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#f9fafc',
         borderWidth: 1,
         borderColor: '#dde3f0',
-        paddingTop:44,
+        paddingTop:24,
 
         flexDirection: "row",
         justifyContent: "space-between",

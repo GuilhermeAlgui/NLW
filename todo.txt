@@ -1,0 +1,2 @@
+Sabado e Domingo - Terminar visual das telas de Esquecer Senha
+Segunda ~ Sexta - Fazer o backend.
